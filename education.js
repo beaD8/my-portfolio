@@ -63,7 +63,7 @@ const certificationData = [
         issuer: "Cisco Networking Academy",
         year: "February 18, 2025",
         credentialId: "",
-        icon: "fa-cloud"
+        icon: "fa-server"
     },
     {
         id: 4,
