@@ -1,0 +1,140 @@
+// projects-data.js - Shared project data for both pages
+
+const projectsData = [
+    {
+        id: 1,
+        title: "Watermelon",
+        description: "This project features a hand-drawn style illustration of two watermelon slices, created digitally using GIMP as a graphic design piece.",
+        longDescription: "This graphic design project showcases a charming, realistic illustration of two fresh watermelon slices rendered to look like traditional colored pencil artwork, completed in 2026. Created entirely within GIMP, the design emphasizes natural color gradients, texture detail, and lifelike shading to bring out the juicy red flesh, dark seeds, and layered green rind. The piece balances simplicity with visual warmth, capturing the refreshing appeal of watermelon while demonstrating proficiency in digital painting, blending techniques, and texture simulation without traditional physical art supplies. It stands as a finished creative work highlighting digital illustration skills and artistic attention to form, color, and light.",
+        category: "Graphic Design",
+        technologies: ["GIMP"],
+        status: "Completed",
+        year: "2026",
+        role: "Graphic Designer",
+        image: "assets/images/Watermelon.png",
+        screenshots: ["assets/images/Watermelon.png"],
+        problem: "Need for a professional online presence to showcase skills and projects to potential employers and clients.",
+        solution: "The solution involved using GIMP’s brush tools, color blending, and layer controls to recreate the soft texture and vibrant hues of colored pencil for a lifelike watermelon illustration.",
+        features: [
+            "Realistic colored-pencil art aesthetic",
+            "Smooth, natural color transitions for flesh, rind, and seeds",
+            "Subtle shading and drop shadow for depth and dimension",
+            "Clean, balanced composition with two overlapping watermelon slices",
+            "Fully digital creation using open-source software GIMP",
+            "Completed, portfolio-ready graphic design piece"
+        ],
+        projectLink: "#",
+        githubLink: "#",
+        demoLink: "#"
+    },
+    {
+        id: 2,
+        title: "Logo Design for Beatryz Dagamac",
+        description: "Professional personal branding package including logo design, brand identity, and visual assets for professional portfolio use.",
+        longDescription: "Created a comprehensive personal branding package featuring a distinctive logo design with multiple variations (horizontal, vertical, icon, and badge formats). The design system establishes a strong visual identity suitable for professional portfolio presentation across various media.",
+        category: "Graphic Design",
+        technologies: ["GIMP"],
+        status: "Completed",
+        year: "2026",
+        role: "Graphic Designer",
+        image: "assets/images/project1/BD_icon.PNG",
+        screenshots: ["assets/images/project1/BD_icon.PNG",
+            "assets/images/project1/BD_HorizontalLogo.png",
+            "assets/images/project1/BD_VerticalLogo.png",
+            "assets/images/project1/BD-Badge.png"],
+        problem: "Needed a cohesive and professional visual identity to establish personal brand across portfolio and professional materials.",
+        solution: "Designed a versatile logo system with multiple formats and variations that maintain brand consistency across different applications and platforms.",
+        features: [
+            "Multiple logo variations (horizontal, vertical, icon, badge)",
+            "Clean and modern aesthetic",
+            "Scalable design for various applications",
+            "Professional brand identity system"
+        ],
+        projectLink: "#",
+        githubLink: "#",
+        demoLink: "#"
+    },
+    {
+        id: 3,
+        title: "Brew Haven",
+        description: "Complete branding and marketing materials for a coffee shop concept including logo, social media posts, banners, and promotional materials.",
+        longDescription: "Developed a comprehensive branding package for Brew Haven coffee shop concept. The project includes logo design, social media marketing materials, banner advertisements, landing page graphics, and newsletter headers. The design features warm, inviting aesthetics with coffee-inspired imagery and modern typography.",
+        category: "Graphic Design",
+        technologies: ["GIMP"],
+        status: "Completed",
+        year: "2026",
+        role: "Graphic Designer",
+        image: "assets/images/project2/BrewHaven-Logo.png",
+        screenshots: [
+            "assets/images/project2/BrewHaven-Logo.png", 
+            "assets/images/project2/BrewHaven-BannerAd.png",
+            "assets/images/project2/BrewHaven-LandingPageBanner.png",
+            "assets/images/project2/BrewHaven-NewsletterHeader.png", 
+            "assets/images/project2/BrewHaven-SocMedPost.png"
+        ],
+        problem: "Coffee shop concept needed cohesive branding and marketing materials to establish brand presence and attract customers across digital platforms.",
+        solution: "Created a complete visual identity system with consistent branding across all marketing touchpoints including social media, web banners, and promotional materials.",
+        features: [
+            "Logo and brand identity design",
+            "Social media marketing graphics",
+            "Web banner advertisements",
+            "Newsletter header design",
+            "Landing page visual assets",
+            "Consistent brand aesthetic across all materials"
+        ],
+        projectLink: "#",
+        githubLink: "#",
+        demoLink: "#"
+    },
+    {
+        id: 4,
+        title: "House of Nueve",
+        description: "Fashion brand identity and marketing campaign for 'The 09 Collection' - elevated basics for the modern era clothing line.",
+        longDescription: "Designed branding and promotional materials for House of Nueve's 'The 09 Collection' fashion line. The project features minimalist, sophisticated design elements that communicate premium quality and modern aesthetics. Created marketing materials for the collection's release drop campaign.",
+        category: "Graphic Design",
+        technologies: ["Canva", "GIMP"],
+        status: "Completed",
+        year: "2026",
+        role: "Graphic Designer",
+        image: "assets/images/project3/HO9.png",
+        screenshots: ["assets/images/project3/HO9.png"],
+        problem: "Fashion brand needed sophisticated visual identity and marketing materials to launch new collection and appeal to modern, style-conscious consumers.",
+        solution: "Developed elegant, minimalist design system that emphasizes premium quality and contemporary fashion aesthetics for the collection launch.",
+        features: [
+            "Brand identity design",
+            "Collection launch campaign materials",
+            "Minimalist, sophisticated aesthetic",
+            "Release drop promotional graphics",
+            "Modern typography and layout"
+        ],
+        projectLink: "#",
+        githubLink: "#",
+        demoLink: "#"
+    },
+    {
+        id: 5,
+        title: "Portfolio Prototype",
+        description: "UI/UX design and wireframing for professional portfolio website showcasing modern web design principles and user experience best practices.",
+        longDescription: "Created comprehensive wireframes and prototype designs for a professional portfolio website. The project demonstrates understanding of user interface design, information architecture, and modern web design principles. Includes layout designs for multiple pages and responsive design considerations.",
+        category: "Graphic Design",
+        technologies: ["Figma"],
+        status: "Completed",
+        year: "2026",
+        role: "UI/UX Designer",
+        image: "assets/images/project4/Portfolio-Dagamac.png",
+        screenshots: ["assets/images/project4/Portfolio-Dagamac.png"],
+        problem: "Needed to plan and visualize the structure, layout, and user flow of a professional portfolio website before development.",
+        solution: "Designed detailed wireframes and prototypes that established the visual hierarchy, navigation structure, and user experience for the portfolio website.",
+        features: [
+            "Website wireframing and prototyping",
+            "User interface design",
+            "Information architecture planning",
+            "Responsive layout designs",
+            "Modern, clean aesthetic",
+            "User experience optimization"
+        ],
+        projectLink: "#",
+        githubLink: "#",
+        demoLink: "#"
+    }
+];

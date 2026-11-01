@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Beatryz Dagamac</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Standard Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo-icon.png">
+
+    <!-- Apple Touch Icon (for iOS devices) -->
+    <link rel="apple-touch-icon" href="assets/images/logo-icon.png">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="Beatryz Dagamac Logo" class="logo-img">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="experience.html" >Experience</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="section-title">My Projects</h1>
+            <p class="header-subtitle">Explore my previous digital projects. Search and filter by category, technology, or status.</p>
+        </div>
+    </section>
+
+    <!-- Search and Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-bar">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Search by project name or technology...">
+                </div>
+                <div class="filter-selects">
+                    <select id="categoryFilter">
+                        <option value="all">All Categories</option>
+                        <option value="Web Development">Web Development</option>
+                        <option value="Mobile Application">Mobile Application</option>
+                        <option value="Information System">Information System</option>
+                        <option value="Networking">Networking</option>
+                        <option value="Database">Database</option>
+                        <option value="Automation">Automation</option>
+                        <option value="Graphic Design">Graphic Design</option>
+                        <option value="Research">Research</option>
+                    </select>
+                    
+                    <select id="statusFilter">
+                        <option value="all">All Status</option>
+                        <option value="Completed">Completed</option>
+                        <option value="In Progress">In Progress</option>
+                        <option value="Planned">Planned</option>
+                    </select>
+
+                    <select id="techFilter">
+                        <option value="all">All Technologies</option>
+                        <option value="GIMP">GIMP</option>
+                        <option value="Canva">Canva</option>
+                        <option value="Figma">Figma</option>
+                        <option value="HTML/CSS">HTML/CSS</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Python">Python</option>
+                        <option value="MySQL">MySQL</option>
+                    </select>
+                    
+                    <select id="yearFilter">
+                        <option value="all">All Years</option>
+                        <option value="2026">2026</option>
+                        <option value="2025">2025</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                    </select>
+                    
+                </div>
+            </div>
+            <div class="results-info" id="resultsInfo">Showing all projects</div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-page-section">
+        <div class="container">
+            <div class="projects-grid" id="projectsContainer">
+                <!-- Projects will be injected here by JavaScript -->
+            </div>
+            <div class="no-results" id="noResults" style="display: none;">
+                <i class="fas fa-folder-open"></i>
+                <h3>No projects found</h3>
+                <p>Try adjusting your search or filter criteria.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/images/logo.png" alt="Beatryz Dagamac Logo" class="logo-img">
+                <p>Creating digital experiences.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/beatryz-dagamac-381463185" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/beaD8"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Beatryz Dagamac. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Main Script (Nav & Dark Mode) -->
+    <script src="script.js"></script>
+    <!-- Shared Project Data -->
+    <script src="projects-data.js"></script>
+    <!-- Projects Specific Script -->
+    <script src="projects.js"></script>
+</body>
+</html>
